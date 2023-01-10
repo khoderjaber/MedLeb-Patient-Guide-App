@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "MedLeb",
+    "slug": "medleb-app",
+    "version": "1.2.5",
+    "orientation": "portrait",
+    "icon": "./assets/xxxhdpi.png",
+    "userInterfaceStyle": "light",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "lb.medleb.app",
+      "buildNumber": "7",
+      "infoPlist": {
+        "NSCameraUsageDescription": "MedLeb need to Access Camera to Scan Medications QRCode."
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4b736727-7ce3-41db-8828-dfedfeb52d81"
+      }
+    },
+    "android": {
+      "package": "medleb.app.lb",
+      "versionCode": 4
+    }
+  },
+  "android": {
+    "package": "medleb.app.lb",
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/xxxhdpi-512x512.png",
+      "backgroundColor": "#1ea282"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4b736727-7ce3-41db-8828-dfedfeb52d81"
+      }
+    }
+  },
+  "web": {
+    "favicon": "./assets/xxxhdpi-512x512.png"
+  }
+}

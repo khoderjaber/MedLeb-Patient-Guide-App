@@ -1,0 +1,36 @@
+{
+  "cli": {
+    "version": ">= 2.1.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+      
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+
+    "previewAPK": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+
+    "production": {}
+  },
+
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "oummalorg@gmail.com",
+        "ascAppId": "6443637652" ,
+        "appleTeamId": "74NHRDXKVS"
+
+      }
+    }
+  }
+}
+
+
