@@ -859,9 +859,9 @@ class SearchResult extends React.Component {
     this.resetRoute();
   };
 
-  // openFeedback = () => {
-  //   this.props.navigation.navigate('Review');
-  // };
+  openFeedback = () => {
+    this.props.navigation.navigate('Review');
+  };
 
   dismissKeyboard = () => {
     console.log('dismissKeyboard');
@@ -985,7 +985,7 @@ class SearchResult extends React.Component {
       : null;
     const description =
       language === 'English'
-        ? 'Prices issued on '
+        ? 'Prices are issued on '
         : 'الأسعار صادرة بتاريخ ';
     const placeHolderText =
       language === 'English'
@@ -1001,7 +1001,7 @@ class SearchResult extends React.Component {
         : searchImages.logoArabic;
     const textInputAlignment = language === 'English' ? 'left' : 'right';
     const textInputDirection = language === 'English' ? 'ltr' : 'rtl';
-    const date = language === 'English' ? '04/01/2023' : '2023/01/04';
+    const date = language === 'English' ? '09/11/2022' : '2022/11/09';
     const betaImage =
       language === 'English'
         ? searchImages.betaEnglish

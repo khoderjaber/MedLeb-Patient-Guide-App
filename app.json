@@ -2,9 +2,9 @@
   "expo": {
     "name": "MedLeb",
     "slug": "medleb-app",
-    "version": "1.2.5",
+    "version": "1.2.4",
     "orientation": "portrait",
-    "icon": "./assets/xxxhdpi.png",
+    "icon": "./assets/xxxhdpi-512x512.png",
     "userInterfaceStyle": "light",
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -14,7 +14,7 @@
     ],
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "lb.medleb.app",
+      "bundleIdentifier": "medleb.app.lb",
       "buildNumber": "7",
       "infoPlist": {
         "NSCameraUsageDescription": "MedLeb need to Access Camera to Scan Medications QRCode."
@@ -27,7 +27,7 @@
     },
     "android": {
       "package": "medleb.app.lb",
-      "versionCode": 4
+      "versionCode": 5
     }
   },
   "android": {
